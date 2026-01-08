@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enginuity – AI Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Your Progress</h1>
+    <p class="subtitle">AI-generated snapshot of your learning pattern</p>
+
+    <!-- PROGRESS CARD -->
+    <img src="{{ url_for('static', filename='progress_card.png') }}"
+         alt="Progress Card"
+         style="width:100%; border-radius:20px;">
+
+    <!-- DOWNLOAD -->
+    <a href="{{ url_for('static', filename='progress_card.png') }}"
+       download="Enginuity_Progress_Card.png"
+       style="text-decoration:none;">
+        <button class="secondary">Download Progress Card</button>
+    </a>
+
+    <!-- VIEW ANALYSIS BUTTON -->
+    <button class="analysis-btn" id="analysisToggle" onclick="toggleReport()">
+        View My Analysis Report
+    </button>
+
+    <!-- DASHBOARD (HIDDEN INITIALLY) -->
+    <div id="analysisReport" class="dashboard hidden">
+
+        <!-- HEADER -->
+        <div class="report-header">
+            <h2>AI Learning Analysis</h2>
+            <p>Generated from your weekly reflection</p>
+        </div>
+
+        <!-- LEARNING MODE -->
+        <div class="dash-card blue">
+            <h3>🧠 Learning Mode</h3>
+            <p><b>Logical & Concept-Driven Thinker</b></p>
+
+            <div class="meter">
+                <div class="fill blue-fill" style="width: 85%;"></div>
+            </div>
+
+            <span>High conceptual clarity · Low memorization dependency</span>
+        </div>
+
+        <!-- CORE STRENGTH -->
+        <div class="dash-card green">
+            <h3>💪 Core Strength</h3>
+            <p>
+                Strong analytical reasoning and pattern recognition.<br>
+                <span>This gives you an edge in technical problem-solving.</span>
+            </p>
+        </div>
+
+        <!-- WEEK FOCUS -->
+        <div class="dash-card purple">
+            <h3>🎯 This Week’s Focus</h3>
+            <ul>
+                <li><b>Topic:</b> Trees (DSA)</li>
+                <li>Solve 8–10 problems</li>
+                <li>Focus on implementation over theory</li>
+            </ul>
+        </div>
+
+        <!-- OPTIONAL -->
+        <div class="dash-card grey">
+            <h3>➕ Optional Exploration</h3>
+            <ul>
+                <li>Revise recursion basics</li>
+                <li>Try 2–3 GATE PYQs</li>
+            </ul>
+        </div>
+
+        <!-- FUTURE -->
+        <div class="dash-card amber">
+            <h3>🚀 Future Signal</h3>
+            <p>
+                Your learning style aligns well with higher studies and advanced CS roles.<br>
+                <span>Consistency can unlock these opportunities.</span>
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- JS -->
+<script>
+function toggleReport() {
+    const report = document.getElementById("analysisReport");
+    const btn = document.getElementById("analysisToggle");
+
+    report.classList.toggle("hidden");
+    report.classList.toggle("show");
+
+    if (btn.innerText.includes("View")) {
+        btn.innerText = "Hide Analysis Report";
+        report.scrollIntoView({ behavior: "smooth" });
+    } else {
+        btn.innerText = "View My Analysis Report";
+    }
+}
+</script>

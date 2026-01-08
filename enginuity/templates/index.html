@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enginuity</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Enginuity</h1>
+    <p class="subtitle">Weekly Learning Reflection (takes less than 5 minutes)</p>
+
+    <form action="/result" method="post">
+
+        <!-- SUBJECT 1 -->
+        <div class="card">
+            <h3>Subject 1</h3>
+
+            <input type="text" name="sub1_name" placeholder="Subject name (e.g. DSA)">
+            <input type="text" name="sub1_topics" placeholder="Topics covered this week">
+
+            <label>Overall Experience</label>
+            <select name="sub1_experience">
+                <option>🔥 Very Engaging</option>
+                <option>🙂 Okay</option>
+                <option>😐 Overwhelming</option>
+                <option>😒 Boring</option>
+            </select>
+
+            <input type="text" name="sub1_best_topic" placeholder="Which topic felt the best?">
+
+            <label>Why did it feel good?</label>
+            <select name="sub1_reason">
+                <option>Logical / Problem-solving</option>
+                <option>Concept clarity</option>
+                <option>Practical / Real-world</option>
+                <option>Easy to grasp</option>
+            </select>
+
+            <label>Do you want to explore this subject more?</label>
+            <select name="sub1_explore">
+                <option>Yes, seriously</option>
+                <option>Maybe</option>
+                <option>No</option>
+            </select>
+        </div>
+
+        <!-- SUBJECT 2 -->
+        <div class="card">
+            <h3>Subject 2</h3>
+
+            <input type="text" name="sub2_name" placeholder="Subject name">
+            <input type="text" name="sub2_topics" placeholder="Topics covered this week">
+
+            <label>Overall Experience</label>
+            <select name="sub2_experience">
+                <option>🔥 Very Engaging</option>
+                <option>🙂 Okay</option>
+                <option>😐 Overwhelming</option>
+                <option>😒 Boring</option>
+            </select>
+
+            <input type="text" name="sub2_best_topic" placeholder="Which topic felt the best?">
+
+            <label>Why did it feel good?</label>
+            <select name="sub2_reason">
+                <option>Logical / Problem-solving</option>
+                <option>Concept clarity</option>
+                <option>Practical / Real-world</option>
+                <option>Easy to grasp</option>
+            </select>
+
+            <label>Do you want to explore this subject more?</label>
+            <select name="sub2_explore">
+                <option>Yes, seriously</option>
+                <option>Maybe</option>
+                <option>No</option>
+            </select>
+        </div>
+
+        <!-- SUBJECT 3 -->
+        <div class="card">
+            <h3>Subject 3</h3>
+
+            <input type="text" name="sub3_name" placeholder="Subject name">
+            <input type="text" name="sub3_topics" placeholder="Topics covered this week">
+
+            <label>Overall Experience</label>
+            <select name="sub3_experience">
+                <option>🔥 Very Engaging</option>
+                <option>🙂 Okay</option>
+                <option>😐 Overwhelming</option>
+                <option>😒 Boring</option>
+            </select>
+
+            <input type="text" name="sub3_best_topic" placeholder="Which topic felt the best?">
+
+            <label>Why did it feel good?</label>
+            <select name="sub3_reason">
+                <option>Logical / Problem-solving</option>
+                <option>Concept clarity</option>
+                <option>Practical / Real-world</option>
+                <option>Easy to grasp</option>
+            </select>
+
+            <label>Do you want to explore this subject more?</label>
+            <select name="sub3_explore">
+                <option>Yes, seriously</option>
+                <option>Maybe</option>
+                <option>No</option>
+            </select>
+        </div>
+
+        <!-- WEEK SUMMARY -->
+        <div class="card">
+            <h3>Week Summary</h3>
+
+            <label>Overall focus this week</label>
+            <select name="overall_focus">
+                <option>Consistent</option>
+                <option>Irregular</option>
+                <option>Very distracted</option>
+            </select>
+
+            <input type="text" name="improve" placeholder="Anything you want to improve next week? (optional)">
+        </div>
+
+        <button type="submit">Generate My Progress</button>
+
+    </form>
+</div>
+
+</body>
+</html>
