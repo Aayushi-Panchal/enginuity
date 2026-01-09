@@ -42,4 +42,3 @@ Enginuity uses rule-based intelligence inspired by AI systems:
 This MVP demonstrates how AI can guide students through **personalized learning paths**.
 
 
-## 🛠️
