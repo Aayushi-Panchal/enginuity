@@ -1,44 +1,196 @@
-# Enginuity 🚀
+<div align="center">
 
-**Enginuity** is a student-focused web application designed to help engineering students reflect on their weekly learning, understand their strengths, and receive a personalized learning roadmap — before it’s too late.
+# Enginuity
 
-Most students realize the importance of skills, exams, and career direction only during placements. Enginuity solves this by enabling **weekly reflection + AI-driven analysis** to guide students consistently.
+### Reflect · Understand · Grow
 
+A student-focused web application designed to help engineering students reflect on their weekly learning, understand their strengths, and receive a personalized learning roadmap.
 
-## 🧠 Problem Statement
-Engineering students often follow a herd mentality — focusing only on college lectures without understanding:
-- What subjects they truly enjoy
-- Where their strengths lie
-- Which opportunities (GATE, placements, higher studies, skills) suit them best  
+<br>
 
-This leads to panic and poor decisions in later years.
+<img src="https://img.shields.io/badge/Student--Focused-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI--Driven-0EA5E9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Learning%20Roadmap-10B981?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Deployed-MVP-F59E0B?style=for-the-badge"/>
 
+</div>
 
-## 💡 Solution
-Enginuity allows students to:
-- Submit a **weekly learning reflection** (takes < 5 minutes)
-- Get an **AI-style analysis** of their learning mode and strengths
-- Receive a **personalized weekly roadmap**
-- Track progress through a **shareable progress card**
+---
 
-The platform is designed to motivate without overwhelming the student.
+## About Enginuity
 
+**Enginuity** is a student-focused web application built to help engineering students understand their learning patterns, identify their strengths, and make better decisions about their academic and career journey.
 
-## ✨ Key Features
-- Weekly reflection form (subject-wise)
-- Learning mode & core strength analysis
-- Personalized weekly focus & roadmap
-- Downloadable progress card
-- Clean, modern dashboard UI
+Instead of waiting until placements to think about skills and career direction, Enginuity encourages **consistent weekly reflection and personalized guidance**.
+
+---
+
+## The Problem
+
+Engineering students often focus mainly on college lectures without reflecting on what they enjoy, where their strengths lie, or which direction suits them.
+
+This can lead to:
+
+- Unclear understanding of personal strengths
+- Following the herd mentality
+- Difficulty choosing between GATE, placements, higher studies and skill development
+- Career decisions made under pressure
+
+---
+
+## Solution
+
+Enginuity turns a short weekly reflection into personalized guidance.
+
+### Core Flow
+
+```text
+Weekly Reflection
+        ↓
+Learning Pattern Analysis
+        ↓
+Strength Identification
+        ↓
+Personalized Recommendations
+        ↓
+Weekly Learning Roadmap
+        ↓
+Progress Tracking
+```
+
+> **Reflect consistently → Understand yourself → Make better decisions**
+
+---
+
+## Key Features
+
+- Weekly subject-wise reflection in **less than 5 minutes**
+- Learning mode and core strength analysis
+- Personalized weekly focus and roadmap
+- Shareable progress card
+- Clean and modern dashboard
 - Fully deployed MVP
-  
 
-## 🤖 Where AI Comes In
-Enginuity uses rule-based intelligence inspired by AI systems:
-- Analyzes weekly inputs to detect learning patterns
-- Classifies students based on logic vs memorization preference
-- Generates adaptive recommendations and roadmaps
+---
 
-This MVP demonstrates how AI can guide students through **personalized learning paths**.
+## AI-Driven Intelligence
 
+Enginuity's MVP uses **rule-based intelligence inspired by AI systems** to analyze student inputs and generate personalized recommendations.
 
+```text
+Student Inputs
+      ↓
+Response Analysis
+      ↓
+Learning Pattern Detection
+      ↓
+Logic / Memorization Classification
+      ↓
+Adaptive Recommendations
+      ↓
+Personalized Roadmap
+```
+
+The system analyzes weekly learning patterns, identifies strengths, classifies learning preferences, and generates an adaptive weekly focus.
+
+---
+
+## Student Journey
+
+| Step | What Happens |
+|:---:|:---|
+| 01 | Reflect on weekly learning |
+| 02 | Analyze learning patterns |
+| 03 | Identify strengths |
+| 04 | Receive personalized guidance |
+| 05 | Follow the weekly roadmap |
+| 06 | Track progress |
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=html,css" />
+
+### Backend
+
+<img src="https://skillicons.dev/icons?i=python,flask" />
+
+</div>
+
+---
+
+## Why Enginuity?
+
+<div align="center">
+
+| Traditional Approach | Enginuity |
+|:---|:---|
+| Guidance comes late | Weekly guidance |
+| One-size-fits-all advice | Personalized recommendations |
+| Focus mainly on marks | Focus on learning patterns |
+| Career decisions under pressure | Consistent self-reflection |
+| Overwhelming information | Focused weekly roadmap |
+
+</div>
+
+---
+
+## Key Highlights
+
+<div align="center">
+
+**< 5 min**  
+Weekly Reflection
+
+&nbsp;&nbsp;•&nbsp;&nbsp;
+
+**Personalized**  
+Learning Guidance
+
+&nbsp;&nbsp;•&nbsp;&nbsp;
+
+**Adaptive**  
+Weekly Roadmap
+
+&nbsp;&nbsp;•&nbsp;&nbsp;
+
+**Shareable**  
+Progress Card
+
+</div>
+
+---
+
+## Future Scope
+
+- More advanced learning-pattern analysis
+- Data-driven recommendation systems
+- Deeper career-path personalization
+- Long-term progress analytics
+- Advanced AI-based student guidance
+
+---
+
+<div align="center">
+
+# Enginuity
+
+### Helping students understand where they are — and where to go next.
+
+<br>
+
+<img src="https://img.shields.io/badge/Reflect-7C3AED?style=flat-square"/>
+<img src="https://img.shields.io/badge/Analyze-0EA5E9?style=flat-square"/>
+<img src="https://img.shields.io/badge/Personalize-10B981?style=flat-square"/>
+<img src="https://img.shields.io/badge/Grow-F59E0B?style=flat-square"/>
+
+<br><br>
+
+**Built to make student growth more intentional.**
+
+</div>
