@@ -20,7 +20,7 @@ A student-focused web application designed to help engineering students reflect 
 ## About Enginuity
 
 **Enginuity** is a student-focused web application built to help engineering students understand their learning patterns, identify their strengths, and make better decisions about their academic and career journey.
-
+  
 Instead of waiting until placements to think about skills and career direction, Enginuity encourages **consistent weekly reflection and personalized guidance**.
 
 ---
